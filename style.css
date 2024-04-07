@@ -83,7 +83,9 @@ p a {
 }
 
 body {
-
+  background-image: url(../img/pinkpattern.png);
+  background-repeat: repeat;
+  background-origin: center;
   background:
     url(../img/pinkpattern.png) repeat center;
     url(../img/smudge.png) right -30px top no-repeat,
