@@ -84,8 +84,8 @@ p a {
 
 body {
   background:
-    url(pictures/smudge.png) right -30px top no-repeat,
-    url(pictures/pinkpattern.png) repeat center;
+    url(img/smudge.png) right -30px top no-repeat,
+    url(img/pinkpattern.png) repeat center;
 }
 
 footer {
