@@ -85,7 +85,7 @@ p a {
 body {
   background:
     url(/img/smudge.png) right -30px top no-repeat,
-    url(https://github.com/nightflame137/nightflame137.github.io/img/pinkpattern.png) repeat center;
+    url(/img/pinkpattern.png) repeat center;
 }
 
 footer {
