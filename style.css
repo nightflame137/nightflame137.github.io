@@ -1,0 +1,97 @@
+h1 {
+  font-family: Courier New, monospace;
+  font-size: 50px;
+  margin-left: 25px;
+  color: #daa184;
+  letter-spacing: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 15px solid #193366;
+}
+
+ul {
+  font-family: Verdana, Tahoma;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  bottom: 60px;
+  float: right;
+}
+
+li ul {display: none;}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px 5px 15px;
+  background: #193366;
+  margin-right: 10px;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px grey;
+}
+
+ul li a:hover {background:#336699;}
+
+li:hover ul {
+  display: block;
+  position: absolute;
+  top: 89px;
+}
+
+li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+li:hover a {
+  background: #336699;
+  border-bottom: none;
+}
+
+li:hover li a:hover {
+  background: #8cb3d9;
+  border-bottom: none;
+}
+a:hover, a:focus {
+   color: #ffbb99;
+}
+
+a:active {
+   color: #ff7733;
+}
+
+p a {
+  float: right;
+}
+
+#menu {
+  margin-right: 50px;
+}
+
+body {
+  background:
+    url(pictures/smudge.png) right -30px top no-repeat,
+    url(pictures/pinkpattern.png) repeat center;
+}
+
+footer {
+  font-family: Tahoma, Verdana;
+  font-size: 13px;
+  text-align: center;
+  color: #193366;
+  letter-spacing: 4px;
+}
