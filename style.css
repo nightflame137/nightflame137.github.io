@@ -84,7 +84,7 @@ p a {
 
 body {
   background:
-    url(/img/smudge.png) right -30px top no-repeat,
+    url(img/smudge.png) right -30px top no-repeat,
     url(/img/pinkpattern.png) repeat center;
 }
 
