@@ -116,12 +116,7 @@ footer {
   font-size: 20px;
   float: none;
   margin-left: 275px;
-}
-#left1 {
-  font-family: Georgia, Times New Roman;
-  font-size: 20px;
-  float: none;
-  margin-left: 370px;
+  margin-bottom: -20px;
 }
 h3 {
   font-size: 30px;
@@ -136,4 +131,10 @@ h2 {
   text-align: center;
   color: #193366;
   text-shadow: 2px 2px 2px gray;
+}
+#email {
+  text-align: center;
+  font-family: Georgia, Times New Roman;
+  font-size: 20px;
+  margin-top: -20px;
 }
