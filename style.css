@@ -178,20 +178,6 @@ h2 {
 }
 
 }
-.buy .right {
-  margin-top: -25px;
-}
-
-.buy a {
-  color: #336699;
-}
-.buy a:hover,.buy a:focus {
-   color: #ffbb99;
-}
-
-.buy a:active {
-   color: #ff7733;
-}
 
 #subtitle {
   margin-left: 400px;
