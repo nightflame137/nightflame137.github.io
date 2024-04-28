@@ -1,3 +1,27 @@
+
+.pics {
+  display: -ms-grid;
+  display: inline-flex;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border: 15px solid #193366;
+  margin-bottom: 5px;
+}
 h1 {
   font-family: Courier New, monospace;
   font-size: 50px;
@@ -57,7 +81,7 @@ ul li a:hover {background:#336699;}
 li:hover ul {
   display: block;
   position: absolute;
-  top: 89px;
+  top: 87px;
 }
 
 li:hover li {
@@ -84,6 +108,7 @@ a:active {
 
 p a {
   float: right;
+  display: block;
 }
 
 #menu {
@@ -137,4 +162,69 @@ h2 {
   font-family: Georgia, Times New Roman;
   font-size: 20px;
   margin-top: -20px;
+}
+#undone {
+  text-align: center;
+  font-size: 50px;
+  margin-left: 450px;
+}
+.left {
+  display: block;
+  float: left;
+  border: 15px solid #193366;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+}
+.buy .right {
+  margin-top: -25px;
+}
+
+.buy a {
+  color: #336699;
+}
+.buy a:hover,.buy a:focus {
+   color: #ffbb99;
+}
+
+.buy a:active {
+   color: #ff7733;
+}
+
+#subtitle {
+  margin-left: 400px;
+}
+
+#pricing {
+  font-family: Georgia, Times New Roman;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+  float: none;
+}
+
+.framelink {
+  font-family: Courier New, Georgia;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #193366;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.framelink figcaption {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+  text-shadow: none;
+  font-family: serif;
+  font-weight: normal;
 }
