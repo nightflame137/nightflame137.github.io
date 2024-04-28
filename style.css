@@ -1,3 +1,31 @@
+.current {
+  background: #468CD1;
+}
+
+#left {
+  font-family: Georgia, Times New Roman;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: -20px;
+  float: none;
+  display: none;
+}
+
+#contact {
+  text-align: center;
+}
+#contact a {
+  display: block;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  font-family: Courier New, Georgia;
+  text-align: center;
+  color: #193366;
+  margin-bottom: -20px;
+}
+
 #subtitle {
   text-align: center;
   font-style: normal;
@@ -27,6 +55,12 @@
   border: 15px solid #193366;
   margin-bottom: 5px;
 }
+
+#insta {
+  float: right;
+  display: block;
+}
+
 h1 {
   font-family: Courier New, monospace;
   font-size: 50px;
@@ -111,11 +145,6 @@ a:active {
    color: #ff7733;
 }
 
-p a {
-  float: right;
-  display: block;
-}
-
 #menu {
   margin-right: 50px;
 }
@@ -141,20 +170,6 @@ footer {
   letter-spacing: 4px;
 }
 
-#left {
-  font-family: Georgia, Times New Roman;
-  font-size: 20px;
-  float: none;
-  margin-left: 275px;
-  margin-bottom: -20px;
-}
-h3 {
-  font-size: 30px;
-  font-family: Courier New, Georgia;
-  text-align: center;
-  color: #193366;
-  margin-bottom: -20px;
-}
 h2 {
   font-family: Courier New, Georgia;
   font-size: 40px;
@@ -163,7 +178,6 @@ h2 {
   text-shadow: 2px 2px 2px gray;
 }
 #email {
-  text-align: center;
   font-family: Georgia, Times New Roman;
   font-size: 20px;
   margin-top: -20px;
@@ -182,19 +196,12 @@ h2 {
   margin-left: 100px;
 }
 
-}
-
 #pricing {
   font-family: Georgia, Times New Roman;
   font-size: 20px;
   line-height: 2;
   margin-top: 25px;
   text-align: center;
-}
-
-#copyright {
-  text-align: center;
-  float: none;
 }
 
 .framelink {
@@ -215,3 +222,4 @@ h2 {
   font-family: serif;
   font-weight: normal;
 }
+
